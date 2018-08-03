@@ -1,0 +1,69 @@
+
+/**************************** SMART PHONE ***********************/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .menu{
+        display: none;
+    }
+    .font-h2 {
+        font-size: 30px;
+    }
+    .image_banner {
+        height: 500px;
+    
+    }
+    .gradient {
+        height: 500px;
+    }
+    .wrapper-logo img {
+z-index: 999;
+position: relative;
+left: -80px;
+bottom: 40px;
+}
+}
+@media only screen and (min-device-width : 481px) and (max-device-width : 768px) {
+    .font-h2 {
+        font-size: 40px;
+    }
+    .menu {
+        display: none;
+    }
+}
+ /**************************** SMART PHONE ***********************/
+
+
+
+/****************************  Ipads ***********************/ 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .menu {
+        width: 50%;
+        
+       
+    }
+    .menu a {
+         font-size: 11px;
+        font-weight: bolder;
+         padding-left: 1px;
+    }
+}
+    /****************************  Ipads ***********************/ 
+
+
+
+ /****************************  PC and laptop ***********************/ 
+@media only screen and (min-width : 1224px) {
+    .menu {
+        width: 50%;
+        
+    }
+    .menu a {
+        margin-left: 30px;
+    }
+}
+ /****************************  PC and laptop ***********************/ 
+
+/****************************  BIG SCREENS ***********************/ 
+@media only screen and (min-width : 1824px) {
+    
+}
+/****************************  BIG SCREENS ***********************/ 
